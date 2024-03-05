@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-color: #D8D8D8;
+    justify-content:center;
+}
+
+.contain {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.contain-item {
+    padding: 12px 16px;
+    flex-basis: 20%; 
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin: 20px;
+}
+.header {
+    font-size: 1.875em;
+    /* display: flex; */
+    height: 80px;
+    align-items: center;
+	justify-content: center;
+}
+.feature-item-body {
+    width: auto;
+    height: 300px;
+    overflow: auto;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+
+.feature-item-body::-webkit-scrollbar { 
+    width: 0 !important;
+    display: none; 
+  }
+
+.listProduct .item img {
+    width: 90%;
+    filter: drop-shadow(0 50px 20px #0009);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/* .listProduct {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+} */
+
+.listProduct .item {
+    background-color: #eeeee6;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+.listProduct .item h2{
+    letter-spacing: 7px;
+    font-size:large;
+    text-align: center;
+}
+
+.listProduct .item .price{
+    background-color: #eeeee6;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.listProduct .item button{
+    background-color: #353432;
+    color: #eee;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: auto; /* Căn giữa theo chiều ngang */
+}
